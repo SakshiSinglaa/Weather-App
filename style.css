@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titlecard{
+    padding-top: 5rem;
+}
+
+.title{
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+}
+
+.title span{
+    color: rgb(87, 194, 243);
+}
+
+.titlecard p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.inputcard{
+    margin: 5% 30% 5% 30%;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+#cityInput{
+    font-size: 20px;
+    padding: 10px;  
+    margin: 2%;
+    width: 45vh;
+    border: none;
+    background-color: rgb(182, 176, 176);
+    border-radius: 1rem;
+}
+
+#searchBtn{
+    font-size: 17px;
+    padding: 10px 25px 10px 25px;
+    margin: 2%;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);;
+    cursor: pointer;
+}
+
+.outputcard{
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(87, 194, 243);
+    width: 40%;
+    margin-left: 30%;
+}
+
+.citynamecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cityname{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 25px;
+}
+
+#countryname{
+    font-size: 18px;
+    background-color: #e27805;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tempcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#temp{
+    font-size: 70px;
+    margin-right: 5px;
+}
+
+#sup{
+    color: #fff;
+    font-size: 24px;
+}
+
+#loc-time{
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+}

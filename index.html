@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WEATHER APP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="titlecard">
+            <h1 class="title"><span>Weather</span> APP</h1>
+            <p>Explore the weather details of any city.</p>
+        </div>
+
+        <div class="inputcard">
+            <input id="cityInput" type="text" placeholder="Enter your city" required>
+            <button id="searchBtn" type="button">SEARCH</button>
+        </div>
+
+        <div id="outputCard" class="outputcard" style="visibility: hidden;">
+            <div class="citynamecard">
+                <p id="cityname"></p>
+                <p id="countryname"></p>
+            </div>
+
+            <div class="tempcard">
+                <p id="temp"></p><sup id="sup"></sup>
+            </div>
+
+            <p id="loc-time"></p>
+            
+        </div>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
